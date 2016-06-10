@@ -8,3 +8,5 @@ Test edit
 
 Test edit 2
 >>>>>>> master
+
+Test edit 4
