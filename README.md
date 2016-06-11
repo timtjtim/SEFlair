@@ -13,7 +13,7 @@ Create a nicer (HD) flair using the Stack Exchange 2.2 API
 
 # Usage
 
-Download the 3 files in [`Flair`](https://github.com/timtjtim/SEFlair/Flair) - `flair.html`, `flair.css`, `flair.js`.
+Download the 3 files in [`Flair`](https://github.com/timtjtim/SEFlair/tree/master/Flair) - `flair.html`, `flair.css`, `flair.js`.
 
 # Thanks to the following resources:
 
