@@ -23,6 +23,10 @@ In `flair.html`, line 6, the `http://SITEURL.com` argumemt must change to the UR
 
 Also on line 6, the USERID must be changed to the user ID of your account **on the site you have chosen** (not your network profile id). You can find this by visiting `http://SITEURL.com/users/me`, and looking for the numbers in the URL bar.
 
+On line 17 of `flair.js` replace `APIKEYHERE` with your API key, or leave it blank.
+
+[Example is live here](http://timonline.tk/Flair/flair,html)
+
 # Thanks to the following resources:
 
  - http://www.getpostman.com/
