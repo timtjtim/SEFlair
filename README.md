@@ -105,10 +105,10 @@ In the `body` tag of `flair.html` is an `onload=` section. This must be amended 
  - https://csscreator.com/topic/media-query
  - http://stackoverflow.com/q/14008781/
  - http://stackoverflow.com/q/7859336/
- - http://en.gravatar.com/site/implement/
+ - http://en.gravatar.com/site/implement
  - http://www.puls200.de/?p=316
- - https://ma.tt/2008/04/identicons-from-gravatar/
- - https://jdenticon.com/
+ - https://ma.tt/2008/04/identicons-from-gravatar
+ - https://jdenticon.com
  - https://www.gitkraken.com/about
 
 
