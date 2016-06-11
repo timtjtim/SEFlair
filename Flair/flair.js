@@ -34,7 +34,7 @@ function getTitle(text) {
 function makeAPIRequest(site, siteUrl, userId) {
   var key = 'APIKEYHERE';
   var filter = '!LnO)*RBcGb8ff5h3LzJPmw';
-  if (key = '') {
+  if (key == '') {
     var url = 'http://api.stackexchange.com/2.2/users/' + userId + '?order=desc&sort=reputation&site='+site+'&filter='+filter;
   } else {
     var url = 'http://api.stackexchange.com/2.2/users/' + userId + '?order=desc&sort=reputation&site='+site+'&key='+key+'&filter='+filter;
