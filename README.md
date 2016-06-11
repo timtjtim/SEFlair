@@ -11,6 +11,10 @@ Create a nicer (HD) flair using the Stack Exchange 2.2 API
 
  - It uses an API key, available from [stackapps.com](http://stackapps.com/apps/oauth/register). If you do not use an API key, it will allow only 300 requests per UTC day (meaning your page can only be loaded 300 times).
 
+# Usage
+
+Download the 3 files in [`Flair`](https://github.com/timtjtim/SEFlair/Flair) - `flair.html`, `flair.css`, `flair.js`.
+
 # Thanks to the following resources:
 
  - http://www.getpostman.com/
@@ -18,7 +22,7 @@ Create a nicer (HD) flair using the Stack Exchange 2.2 API
  - http://stackoverflow.com/q/10737166/
  - http://stackoverflow.com/q/18095639/
  - http://stackoverflow.com/q/2067472/
- - http://www.html5rocks.com/en/tutorials/cors/ Javascript taken from here (Licened under Apache 2.0)
+ - http://www.html5rocks.com/en/tutorials/cors/ **Javascript taken from here (Licened under Apache 2.0)**
  - http://stackoverflow.com/q/4935632/
  - http://stackoverflow.com/q/45015/
  - http://stackoverflow.com/q/9991805/
