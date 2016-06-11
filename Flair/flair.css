@@ -1,0 +1,52 @@
+#flair-SITENAME-user-profile-link {
+  text-decoration: none;
+}
+
+#flair-SITENAME-in-here {
+
+  display: block !important;
+
+  /* Change this - default flair is 250px*/
+  width: 250px;
+
+  /* Centre in middle of container */
+  margin: 0 auto;
+
+  /* Pad the box */
+  padding: 16px;
+
+  /* Nice blue-grey background colur */
+  background-color:#dfe5e8;
+
+  /* I like Raleway */
+  font-family: 'Raleway', sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+
+  /* Include padding / margin in width */
+
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box
+
+}
+
+#flair-table {
+  width: 100%;
+}
+
+.flair-SITENAME-div-hidden {
+  display: none !important;
+}
+
+#flair-SITENAME-site-display-image {
+  margin-bottom: -3px;
+}
+
+.w3-center {
+    text-align: center;
+}
+
+.w3-right-align {
+    text-align: right;
+}

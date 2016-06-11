@@ -1,0 +1,57 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="flair.css">
+    <script src="flair.js"></script>
+  </head>
+  <body onload="makeAPIRequest('SITENAME', 'http://SITEURL.com', 'USERID')";>
+
+    <div id="flair-SITENAME-in-here" class="flair-div flair-SITENAME-div-hidden w3-padding-ver-16 w3-theme-l4 flair-SITENAME-div">
+      <a id="flair-SITENAME-user-profile-link" class="flair" href="">
+        <table id="flair-table">
+          <tr>
+            <td rowspan="3"  class="w3-left-align">
+              <img id="flair-SITENAME-user-display-image" src="avatar.png" width="70px">
+            </td>
+            <td class="w3-right-align" colspan="3">
+              <img id="flair-SITENAME-site-display-image" src="SITENAMEFlairLogoV1.svg" width="16px">
+              <span id="flair-SITENAME-user-display-name"">
+                User
+              </span>
+            </td>
+          </tr>
+          <tr class="w3-right-align">
+            <td id="flair-SITENAME-user-reputation" colspan="3">
+              1
+            </td>
+          </tr>
+          <tr class="w3-right-align">
+            <td id="flair-SITENAME-user-badge-gold">
+              <svg height="6" width="6">
+                <circle cx="3" cy="3" r="3" fill="#ffcc00"/>
+              </svg>
+              <span class="flair" id="flair-SITENAME-user-badge-count-gold">
+                0
+              </span>
+            </td>
+            <td id="flair-SITENAME-user-badge-silver">
+              <svg height="6" width="6">
+                <circle cx="3" cy="3" r="3" fill="#c5c5c5"/>
+              </svg>
+              <span id="flair-SITENAME-user-badge-count-silver">
+                0
+              </span>
+            </td>
+            <td id="flair-SITENAME-user-badge-bronze">
+              <svg height="6" width="6">
+                <circle cx="3" cy="3" r="3" fill="#cc9966"/>
+              </svg>
+              <span id="flair-SITENAME-user-badge-count-bronze">
+                0
+              </span>
+            </td>
+          </tr>
+        </table>
+      </a>
+    </div>
+  </body>
+</html>
