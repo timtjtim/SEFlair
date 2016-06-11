@@ -15,6 +15,7 @@ function makeflair(data,site) {
   document.getElementById('flair-'+site+'-user-badge-count-bronze').innerHTML = data[0];
   document.getElementById('flair-'+site+'-user-badge-count-silver').innerHTML = data[1];
   document.getElementById('flair-'+site+'-user-badge-count-gold').innerHTML = data[2];
+  // If a user is a moderator, add the diamond ♦ symbol
   var symbol = '';
   if (data[8] == 'moderator') {
     symbol = '&#9830';
@@ -39,6 +40,7 @@ function getTitle(text) {
 function makeAPIRequest(site, siteUrl, userId) {
   var key = 'APIKEYHERE';
   var filter = '!LnO)*RBcGb8ff5h3LzJPmw';
+  // If no key provided, don't send key perameter
   if (key == '') {
     var url = 'http://api.stackexchange.com/2.2/users/' + userId + '?order=desc&sort=reputation&site='+site+'&filter='+filter;
   } else {
