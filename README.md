@@ -53,7 +53,7 @@ In the `body` tag of `flair.html` is an `onload=` section. This must be amended 
  - Up to 10,000 visitors per UTC day.
  - An HD Flair - better than the 208 x 58 images provided by SE (not retina ready).
 
-# Thanks to the following resources:
+# Thanks to the following resources
 
  - http://www.getpostman.com
  - http://stackoverflow.com/q/2263096
