@@ -23,8 +23,13 @@ function makeflair(data,site) {
   document.getElementById('flair-'+site+'-user-display-image').src = data[4];
   document.getElementById('flair-'+site+'-user-reputation').innerHTML = data[5];
   document.getElementById('flair-'+site+'-user-profile-link').href = data[7] + '/users/' + data[6];
-  document.getElementById('flair-'+site+'-site-display-image').src = site+'FlairLogoV1.svg';
   document.getElementById('flair-'+site+'-in-here').className = 'w3-padding-ver-16 w3-theme-l4 flair-'+site+'-div';
+  // Currently SE has a weird system for naming favicons: http://meta.stackexchange.com//280163
+  if (site == 'meta') {
+    document.getElementById('flair-'+site+'-site-display-image').src = 'https://cdn.sstatic.net/Sites/stackexchange'+site+'/img/favicon.ico';
+  } else {
+    document.getElementById('flair-'+site+'-site-display-image').src = 'https://cdn.sstatic.net/Sites/'+site+'/img/favicon.ico';
+  }
 }
 
 // Helper method to parse the title tag from the response.
@@ -39,6 +44,7 @@ function makeAPIRequest(site, siteUrl, userId) {
   } else {
     var url = 'http://api.stackexchange.com/2.2/users/' + userId + '?order=desc&sort=reputation&site='+site+'&key='+key+'&filter='+filter;
   }
+  document.getElementById('flair-'+site+'-site-display-image').src = 'https://cdn.sstatic.net/Sites/'+site+'/img/favicon.ico';
   var response = createCORSRequest('GET', url);
   response.onload = function() {
     var text = response.responseText;
