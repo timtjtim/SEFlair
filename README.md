@@ -1,10 +1,8 @@
-# SEFlair
+# SE Flair
 
 Create a nicer (HD) flair using the Stack Exchange 2.2 API
 
- - This uses the Stack Exchange 2.2 API which is documented [here](http://api.stackexchange.com/):
-
- - Specifically it uses the `/users/{ids}` section to get the following information:
+ - This uses the Stack Exchange 2.2 API which is documented [here](http://api.stackexchange.com/). It uses the (`/users/{ids}`)[http://api.stackexchange.com/docs/users-by-ids] section to get the following information:
 
   - User display name
   - User display image
