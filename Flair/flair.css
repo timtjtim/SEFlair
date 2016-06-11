@@ -4,7 +4,7 @@
 
 #flair-SITENAME-in-here {
 
-  display: block !important;
+  display: block;
 
   /* Change this - default flair is 250px*/
   width: 250px;
@@ -18,21 +18,14 @@
   /* Nice blue-grey background colur */
   background-color:#dfe5e8;
 
-  /* I like Raleway */
-  font-family: 'Raleway', sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 15px;
   line-height: 1.5;
 
   /* Include padding / margin in width */
-
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box
-
-}
-
-#flair-table {
-  width: 100%;
 }
 
 .flair-SITENAME-div-hidden {
@@ -41,6 +34,10 @@
 
 #flair-SITENAME-site-display-image {
   margin-bottom: -3px;
+}
+
+.flair-table {
+  width: 100%;
 }
 
 .w3-center {
