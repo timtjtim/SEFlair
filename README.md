@@ -27,6 +27,18 @@ On line 17 of `flair.js` replace `APIKEYHERE` with your API key, or leave it bla
 
 [Example is live here](http://timonline.tk/Flair/flair,html)
 
+# Usage with 2 or more flairs on one page
+
+Complete all steps above, however many times required.
+
+Copy everything in the `flair.html` files into one - everything should be inside the body, at the level of the div with ID `flair-SITENAME-in-here` (line 8).
+
+In the `flair.css` file, only the first 4 sections need duplicating.
+
+In the `body` tag of `flair.html` is an `onload=` section. This must be amended to include the function call multiple times. For example, to have a flair on Meta Stack Exchange and Stackoverflow, use `makeAPIRequest('meta', 'http://meta.stackexchange.com', '-1'); makeAPIRequest('stackoverflow', 'http://stackoverflow.com', '-1')`. Follow the same pattern for more (semi-colon `;` delimited).
+
+[Example is live here](http://timonline.tk/Flair/flair-2,html)
+
 # Thanks to the following resources:
 
  - http://www.getpostman.com/
