@@ -15,6 +15,14 @@ Create a nicer (HD) flair using the Stack Exchange 2.2 API
 
 Download the 3 files in [`Flair`](https://github.com/timtjtim/SEFlair/tree/master/Flair) - `flair.html`, `flair.css`, `flair.js`.
 
+Do a find-replace for `SITENAME` and replace with the name of the Stack Exchange site (e.g. `meta` for meta.stackexchange or `askubuntu` for askubuntu.com)
+
+This must be done in both `flair.html` and `flair.css`.
+
+In `flair.html`, line 6, the `http://SITEURL.com` argumemt must change to the URL of the site (e.g. `http://meta.stackexchange.com` or `http://askubuntu.com`).
+
+Also on line 6, the USERID must be changed to the user ID of your account **on the site you have chosen** (not your network profile id). You can find this by visiting `http://SITEURL.com/users/me`, and looking for the numbers in the URL bar.
+
 # Thanks to the following resources:
 
  - http://www.getpostman.com/
