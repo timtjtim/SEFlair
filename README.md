@@ -39,6 +39,17 @@ In the `body` tag of `flair.html` is an `onload=` section. This must be amended 
 
 [Example is live here](http://timonline.tk/Flair/flair-2,html)
 
+# Features
+
+ - Any SE site, excluding Area 51 (as it's not part of the API).
+ - Jon Skeet compatible with minimal modifications
+ - Fetches all data needed, including favicon (no offline resources needed)
+ - Multiple flairs on one page
+ - Fails gracefully (simply doesn't display anything) rather than an area with missing images / data and console error reporting
+ - Latest version of the API (2.2)
+ - Up to 10,000 visitors per UTC day.
+ - An HD Flair - better than the 208 x 58 images provided by SE (not retina ready).
+
 # Thanks to the following resources:
 
  - http://www.getpostman.com/
