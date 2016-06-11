@@ -7,6 +7,7 @@
   display: block;
 
   /* Change this - default flair is 250px*/
+  /* 270 minimum for Jon Skeet */
   width: 250px;
 
   /* Centre in middle of container */
@@ -28,14 +29,17 @@
   box-sizing: border-box
 }
 
+/* Don't display untill flair has loaded (and never if API fails)*/
 .flair-SITENAME-div-hidden {
   display: none !important;
 }
 
+/* Position the favicon */
 #flair-SITENAME-site-display-image {
   margin-bottom: -3px;
 }
 
+/* Fill the width of the div */
 .flair-table {
   width: 100%;
 }
