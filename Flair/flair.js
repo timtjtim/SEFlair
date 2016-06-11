@@ -12,7 +12,6 @@ function createCORSRequest(method, url) {
 }
 
 function makeflair(data,site) {
-  console.log(site);
   document.getElementById('flair-'+site+'-user-badge-count-bronze').innerHTML = data[0];
   document.getElementById('flair-'+site+'-user-badge-count-silver').innerHTML = data[1];
   document.getElementById('flair-'+site+'-user-badge-count-gold').innerHTML = data[2];
@@ -33,7 +32,6 @@ function getTitle(text) {
   return text.match('<title>(.*)?</title>')[1];
 }
 function makeAPIRequest(site, siteUrl, userId) {
-  console.log(site);
   var key = 'APIKEYHERE';
   var filter = '!LnO)*RBcGb8ff5h3LzJPmw';
   if (key = '') {
@@ -51,6 +49,7 @@ function makeAPIRequest(site, siteUrl, userId) {
       makeflair(data,site);
     }
     catch(err) {
+      console.log(parsedJSON)
     }
   };
   response.send();
