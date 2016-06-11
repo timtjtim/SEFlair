@@ -8,6 +8,7 @@ Create a nicer (HD) flair using the Stack Exchange 2.2 API
   - User display image
   - User badge count
   - User reputation
+  - Site favicon
 
  - It uses an API key, available from [stackapps.com](http://stackapps.com/apps/oauth/register). If you do not use an API key, it will allow only 300 requests per UTC day (meaning your page can only be loaded 300 times).
 
