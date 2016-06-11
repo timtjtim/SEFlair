@@ -111,4 +111,5 @@ In the `body` tag of `flair.html` is an `onload=` section. This must be amended 
  - https://jdenticon.com/
  - https://www.gitkraken.com/about
 
+
  # Licensed under the Apache 2.0 License. See file LICENSE
