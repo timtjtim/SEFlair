@@ -110,3 +110,5 @@ In the `body` tag of `flair.html` is an `onload=` section. This must be amended 
  - https://ma.tt/2008/04/identicons-from-gravatar/
  - https://jdenticon.com/
  - https://www.gitkraken.com/about
+
+ # Licensed under the Apache 2.0 License. See file LICENSE
