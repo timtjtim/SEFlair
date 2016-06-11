@@ -103,18 +103,14 @@ In the `body` tag of `flair.html` is an `onload=` section. This must be amended 
  - http://giona.net/tools/css3-mediaquery-generator
  - https://tools.nasqueron.org/css/media-queries-generator
  - https://csscreator.com/topic/media-query
-<<<<<<< Updated upstream
- - http://stackoverflow.com/q/14008781/
- - http://stackoverflow.com/q/7859336/
-=======
  - http://stackoverflow.com/q/14008781
  - http://stackoverflow.com/q/7859336
->>>>>>> Stashed changes
+ - http://stackoverflow.com/q/14008781
+ - http://stackoverflow.com/q/7859336
  - http://en.gravatar.com/site/implement
  - http://www.puls200.de/?p=316
  - https://ma.tt/2008/04/identicons-from-gravatar
  - https://jdenticon.com
- - https://www.gitkraken.com/about
 
 
  Licensed under the Apache 2.0 License. See file LICENSE
