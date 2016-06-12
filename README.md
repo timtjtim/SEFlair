@@ -28,7 +28,7 @@ Also on line 6, the USERID must be changed to the user ID of your account **on t
 
 On line 17 of `flair.js` replace `APIKEYHERE` with your API key, or leave it blank.
 
-[Example is live here](http://timonline.tk/Flair/flair,html)
+[Example is live here](http://timonline.tk/Flair/flair.html)
 
 # Usage with 2 or more flairs on one page
 
@@ -40,7 +40,7 @@ In the `flair.css` file, only the first 4 sections need duplicating.
 
 In the `body` tag of `flair.html` is an `onload=` section. This must be amended to include the function call multiple times. For example, to have a flair on Meta Stack Exchange and Stackoverflow, use `makeAPIRequest('meta', 'http://meta.stackexchange.com', '-1'); makeAPIRequest('stackoverflow', 'http://stackoverflow.com', '-1')`. Follow the same pattern for more (semi-colon `;` delimited).
 
-[Example is live here](http://timonline.tk/Flair/flair-2,html)
+[Example is live here](http://timonline.tk/Flair/flair-2.html)
 
 # Features
 
