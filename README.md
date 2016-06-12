@@ -45,13 +45,15 @@ In the `body` tag of `flair.html` is an `onload=` section. This must be amended 
 # Features
 
  - Any SE site, excluding Area 51 (as it's not part of the API).
- - Jon Skeet compatible with minimal modifications
- - Fetches all data needed, including favicon (no offline resources needed)
- - Multiple flairs on one page
- - Fails gracefully (simply doesn't display anything) rather than an area with missing images / data and console error reporting
- - Latest version of the API (2.2)
+ - Jon Skeet compatible with minimal modifications.
+ - Fetches all data needed, including favicon (no offline resources needed).
+ - Multiple flairs on one page.
+ - Fails gracefully (simply doesn't display anything) rather than an area with missing images / data and console error reporting.
+ - Latest version of the API (2.2).
  - Up to 10,000 visitors per UTC day.
- - An HD Flair - better than the 208 x 58 images provided by SE (not retina ready).
+ - An HD Flair - better than the 208 x 58 images provided by SE, which are not retina ready.
+ - You can choose where each detail goes - make a wide, a thin, a long or a fat  flair, to fit your website.
+ - Supports moderator diamonds at the end of names.
 
 # Thanks to the following resources
 
